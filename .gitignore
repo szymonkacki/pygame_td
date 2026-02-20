@@ -1,0 +1,12 @@
+# Pliki tymczasowe i cache Pythona
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Środowiska wirtualne
+venv/
+.venv/
+env/
+
+# Lokalne wyniki gracza
+wynik.txt
