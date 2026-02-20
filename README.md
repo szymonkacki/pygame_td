@@ -1,5 +1,7 @@
 # 🏰 Pygame Tower Defense Game
 
+*[Read this in English](README-en.md)*
+
 W pełni funkcjonalna gra typu Tower Defense stworzona w języku Python z wykorzystaniem biblioteki Pygame. Celem gry jest obrona przed nadciągającymi falami przeciwników poprzez strategiczne rozmieszczanie i ulepszanie wież obronnych.
 
 ## Główne funkcje gry
@@ -40,11 +42,11 @@ Projekt korzysta z pakietu `pygame`.
    ```bash
    python main.py
    ```
-🎮 Sterowanie w grze
+## 🎮 Sterowanie w grze
 * LPM (Lewy Przycisk Myszy): Budowa wieży w wyznaczonym wolnym slocie oraz interakcja z przyciskami w menu.
 * PPM (Prawy Przycisk Myszy): Kliknięcie na wieżę ulepsza ją. Jeśli wieża osiągnęła 3. poziom, PPM otwiera menu ewolucji.
 * ŚPM (Środkowy Przycisk / Scroll): Kliknięcie na wieżę powoduje jej sprzedaż i zwrot części poniesionych kosztów.
 * ESC: Otwarcie menu pauzy podczas rozgrywki.
 
-💡 Informacje techniczne
+## 💡 Informacje techniczne
 Kod został zorganizowany zgodnie z paradygmatem programowania obiektowego (OOP) i podzielony na moduły strukturalne (m.in. game_manager.py, tower.py, enemy.py, bullet.py), co gwarantuje jego czytelność i ułatwia wprowadzanie nowych funkcji.
